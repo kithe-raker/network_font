@@ -81,7 +81,20 @@ so call `initFont` on same `fontData` multiple-time will not repeated.
 ```dart
 final NetworkFont _networkFont = NetworkFont('family', url:'font_url');
 
-FontFunction.instance.initFont(_networkFont)
+@override
+void initState() {
+  FontFunction.instance.initFont(_networkFont);
+  super.initState();
+}
+
+@override
+Widget build(BuildContext context) {
+  return Text(
+        'Example Text',
+        style: TextStyle(fontFamily: fontFamily: _networkFont.family),
+    );
+}
+
 ```
 
 ***Note: Currently only support OpenType (OTF) and TrueType (TTF) fonts.***
