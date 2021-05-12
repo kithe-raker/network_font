@@ -57,7 +57,7 @@ class FontFunction {
   ///
   /// Also This operation has unnecessary initialization checker,
   /// so call same [fontData] multiple-time does not repeated.
-  /// 
+  ///
   /// ***Note: Currently only support OpenType (OTF) and TrueType (TTF) fonts.***
   Future<void> initFont(NetworkFont fontData) async {
     if (_initedFont.contains(fontData.family)) return;
@@ -70,6 +70,10 @@ class FontFunction {
     _initedFont.add(fontData.family);
   }
 
+  /// get font data
+  /// 
+  /// ![](https://github.com/kithe-raker/network_font/blob/master/docs/WorkFlow.png?raw=true)
+  ///
   Future<ByteData> _getFontBytesData(NetworkFont fontData) async {
     late final Future<ByteData> fontBytes;
 
