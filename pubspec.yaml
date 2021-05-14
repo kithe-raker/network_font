@@ -1,6 +1,6 @@
 name: network_font
 description: network_font will help you use your custom font from network, so you don't have to store those fonts in your project directory's asset folder.
-version: 1.0.0
+version: 0.0.4
 homepage: https://github.com/kithe-raker/network_font
 
 environment:
@@ -8,6 +8,8 @@ environment:
   flutter: ">=1.17.0"
 
 dependencies:
+  flutter:
+    sdk: flutter
 
   # Get user's local path
   path_provider: ^2.0.1
@@ -17,3 +19,7 @@ dependencies:
 
   # Store data to user's local
   hive: ^2.0.4
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
