@@ -79,6 +79,9 @@ Also This operation has unnecessary initialization checker to,
 so call `initFont` on same `fontData` multiple-time will not repeated.
 
 ```dart
+import 'package:network_font/network_font.dart';
+.
+.
 final NetworkFont _networkFont = NetworkFont('family', url:'font_url');
 
 @override
