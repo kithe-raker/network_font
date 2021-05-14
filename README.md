@@ -6,7 +6,7 @@ Also this package is inspired by [google_fonts](https://pub.dev/packages/google_
 
 ## Getting Started
 
-![](https://github.com/kithe-raker/network_font/blob/master/docs/example.gif)
+![](https://github.com/kithe-raker/network_font/blob/master/doc/example.gif)
 
 This `network_font` package will help you use your custom font from network, so you don't have to store in `asset` folder in the project directory.
 
@@ -14,7 +14,7 @@ This `network_font` package will help you use your custom font from network, so 
 
 **Basically** just like [cached_network_image](https://pub.dev/packages/cached_network_image). If your font file from network isn't exists in user's cache directory or `expired`, this package'll download and store your font to user's cache directory.
 
-![](https://github.com/kithe-raker/network_font/blob/master/docs/WorkFlow.png)
+![](https://github.com/kithe-raker/network_font/blob/master/doc/WorkFlow.png)
 
 ## How to use?
 
