@@ -1,5 +1,5 @@
 name: network_font
-description: Help you easily uses font from network.
+description: In case you want user to use a plenty of custom font from network, This network_font package will help you use your custom font from network, so you don't have to store those fonts in your project directory's asset folder.
 version: 0.0.2
 homepage: https://github.com/kithe-raker/network_font
 
@@ -15,7 +15,7 @@ dependencies:
   path_provider: ^2.0.1
 
   # Make get request to network font
-  http: ^0.13.1
+  http: ^0.13.3
 
   # Store data to user's local
-  hive: ^2.0.1
+  hive: ^2.0.4
