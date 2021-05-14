@@ -1,6 +1,6 @@
 name: network_font
 description: network_font will help you use your custom font from network, so you don't have to store those fonts in your project directory's asset folder.
-version: 0.0.3
+version: 1.0.0
 homepage: https://github.com/kithe-raker/network_font
 
 environment:

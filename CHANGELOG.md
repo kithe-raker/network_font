@@ -1,7 +1,10 @@
+## [1.0.0]
+
+- Migrating to null-safety🔥
+
 ## [0.0.3]
 
 - Update README.md
-- Migrating to null-safety🔥
 
 ## [0.0.2]
 
