@@ -1,6 +1,7 @@
 # network_font
 
 Help you easily uses font from network 💪
+In case you want user to use a plenty of custom font from network, This network_font package will help you use your custom font from network, so you don't have to store those fonts in your project directory's asset folder.
 
 Also this package is inspired by [google_fonts](https://pub.dev/packages/google_fonts) and [cached_network_image](https://pub.dev/packages/cached_network_image)
 
