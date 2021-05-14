@@ -126,11 +126,9 @@ packages:
   network_font:
     dependency: "direct main"
     description:
-      path: "."
-      ref: HEAD
-      resolved-ref: cf0c91a607690c5c57e3846409468dbc779fee9d
-      url: "https://github.com/kithe-raker/network_font.git"
-    source: git
+      name: network_font
+      url: "https://pub.dartlang.org"
+    source: hosted
     version: "0.0.1"
   path:
     dependency: transitive

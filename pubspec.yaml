@@ -1,6 +1,6 @@
 name: network_font
 description: Help you easily uses font from network.
-version: 0.0.1
+version: 0.0.2
 homepage: https://github.com/kithe-raker/network_font
 
 environment:
