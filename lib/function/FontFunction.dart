@@ -71,7 +71,7 @@ class FontFunction {
   }
 
   /// get font data
-  /// 
+  ///
   /// ![](https://github.com/kithe-raker/network_font/blob/master/doc/WorkFlow.png?raw=true)
   ///
   Future<ByteData> _getFontBytesData(NetworkFont fontData) async {
