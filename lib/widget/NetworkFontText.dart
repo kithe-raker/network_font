@@ -164,10 +164,18 @@ class _NetworkFontTextState extends State<NetworkFontText>
   Widget build(BuildContext context) {
     return FadeTransition(
         opacity: _animation,
-        child: Text(
-          widget.data,
-          style: widget.style?.copyWith(fontFamily: widget.font.family) ??
-              TextStyle(fontFamily: widget.font.family),
-        ));
+        child: Text(widget.data,
+            style: widget.style?.copyWith(fontFamily: widget.font.family) ??
+                TextStyle(fontFamily: widget.font.family),
+            strutStyle: widget.strutStyle,
+            textAlign: widget.textAlign,
+            textDirection: widget.textDirection,
+            locale: widget.locale,
+            softWrap: widget.softWrap,
+            overflow: widget.overflow,
+            textScaleFactor: widget.textScaleFactor,
+            maxLines: widget.maxLines,
+            semanticsLabel: widget.semanticsLabel,
+            textWidthBasis: widget.textWidthBasis));
   }
 }
