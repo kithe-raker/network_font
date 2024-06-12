@@ -15,7 +15,7 @@ dependencies:
   path_provider: ^2.0.1
 
   # Make get request to network font
-  http: ^0.13.3
+  http: ^1.1.0
 
   # Store data to user's local
   hive: ^2.0.4
