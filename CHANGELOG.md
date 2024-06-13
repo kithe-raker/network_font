@@ -1,3 +1,7 @@
+## [0.0.5]
+
+- Upgrade HTTP version (v1.1.0)
+
 ## [0.0.4]
 
 - Update Description
